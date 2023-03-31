@@ -4,7 +4,7 @@ from config.db import engine, meta_data
 
 
 
-users = Table('users', meta_data,
+users = Table('usuarios', meta_data,
               Column('id', Integer, primary_key=True),
               Column('name', String(100), nullable=False),
               Column('username', String(100), nullable=False),
